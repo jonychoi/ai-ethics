@@ -1,13 +1,13 @@
 import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
-import {darkBg, lightBg} from './index';
+import {darkBg, lightBg, unlimitColor} from './index';
 
  
 export const GlobalStyle = createGlobalStyle`
   ${reset};
   body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', 'Roboto', 'Oxygen',
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -19,6 +19,23 @@ export const GlobalStyle = createGlobalStyle`
     color: ${(props) => props.darkMode ? "white" : "black"};
     line-height: 24px;
     font-size: 15px;
+  }
+
+  p {
+    margin: 10px 0px;
+    font-size: 16.5px;
+    color: rgb(235, 235, 235);
+    padding: 0 20%;
+  }
+
+  strong {
+    font-weight: 700;
+  }
+  
+  ul, ol {
+    margin: 20px 0px;
+    padding: 0 20%;
+    font-size: 16.5px;
   }
   
   code {
@@ -32,6 +49,10 @@ export const GlobalStyle = createGlobalStyle`
 
   a {
     text-decoration: none;
+  }
+
+  a:hover {
+    color: ${unlimitColor};
   }
 
   a:visited {

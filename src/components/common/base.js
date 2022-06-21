@@ -1,6 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import {ThemeEvent} from '../../contexts/globalContext';
+import { unlimitColor } from "../../styles";
+
+export const Link = styled.a`
+    :hover {
+        color: ${unlimitColor};
+    }
+`;
 
 export const Text = styled.span`
     font-weight: ${props => props.weight};
