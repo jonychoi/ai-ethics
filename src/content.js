@@ -1,3 +1,4 @@
+import React from 'react';
 import {Flex, Col, Row, Text, Image, Link} from './components/common/base';
 import { unlimitColor } from './styles';
 import as2_1 from './imgs/0315-1.png';
@@ -378,7 +379,7 @@ export const contents = [
                 </ul>
             </Text>
         </Col>
-    },
+    }
 ]
 
 export default contents;
