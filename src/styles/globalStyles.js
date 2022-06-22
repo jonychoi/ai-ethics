@@ -25,6 +25,12 @@ export const GlobalStyle = createGlobalStyle`
     margin: 10px 0px;
     font-size: 16.5px;
     color: rgb(235, 235, 235);
+  }
+
+  .marginP {
+    margin: 10px 0px;
+    font-size: 16.5px;
+    color: rgb(235, 235, 235);
     padding: 0 20%;
   }
 
@@ -32,7 +38,12 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 700;
   }
   
-  ul, ol {
+  .text {
+    font-size: 15.5px;
+    line-height: 25px;
+  }
+  
+  .lister {
     margin: 20px 0px;
     padding: 0 20%;
     font-size: 16.5px;

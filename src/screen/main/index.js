@@ -21,14 +21,16 @@ export const Slide = ({currentIdx, item, id}) => {
     return (
         <Flex shadow={true} position="fixed" br="20px" zIndex={id} bg={componentBger()} style={{overflowY: 'scroll', top: '15%', left: currentIdx == id ? '5%' : id < currentIdx ? '5%' : '100%', transition: 'all 400ms'}} height={"70%"} width="90%">
             <Col width="100%" height="100%" padding="padding: 30px;">
-                <Text size="25" weight="700" style={{fontFamily: "Cormorant garamond"}}>{item.title}</Text>
+                <Row align="center" justify="space-between" margin="margin-bottom: 10px;" >
+                    <Text size="25" weight="700" style={{fontFamily: "Cormorant garamond"}}>{item.title}</Text>
+                    {item.part && <Col margin="margin-right: 150px;">
+                        <Text weight="700" style={{textAlign: "left", fontFamily: 'Cormorant Garamond'}}>{item.part}</Text>
+                        <Text weight="40" style={{textAlign: "left", opacity: 0.7, fontFamily: 'Cormorant Garamond'}} margin="margin-top: 5px;">{item.chap}</Text>
+                    </Col>}
+                </Row>
                 {item.description}
             </Col>
             {item.date && <Text weight="700" size="25" style={{position: 'absolute', right: 30, top: 30, fontFamily: 'Cormorant Garamond'}}>{item.date}</Text>}
-            {item.part && <Col position="absolute" style={{right: 15, bottom: 15}}>
-                <Text weight="700" style={{textAlign: "right", fontFamily: 'Cormorant Garamond'}}>{item.part}</Text>
-                <Text weight="40" style={{textAlign: "right", opacity: 0.7, fontFamily: 'Cormorant Garamond'}} margin="margin-top: 10px;">{item.chap}</Text>
-            </Col>}
         </Flex>
     )
 }
