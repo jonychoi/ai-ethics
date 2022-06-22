@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ai-ethics/precache-manifest.ee47b65f39a25b6e3f979620021251b5.js"
+  "/ai-ethics/precache-manifest.5183e6c12d08317de9de1a8b500daad1.js"
 );
 
 workbox.clientsClaim();

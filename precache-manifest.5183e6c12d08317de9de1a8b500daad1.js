@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "0e4e216c3ff0e28a5bf9",
-    "url": "/ai-ethics/static/js/main.0e4e216c.chunk.js"
+    "revision": "16505da5130960a7fafe",
+    "url": "/ai-ethics/static/js/main.16505da5.chunk.js"
   },
   {
     "revision": "301350276c9b2558dbc2",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/ai-ethics/static/media/0331-3.d4709c6a.png"
   },
   {
-    "revision": "9ae8d3d95876ad3f7af81100f4096c3e",
+    "revision": "39c3ce7a18f3968b2b28a30a9af58778",
     "url": "/ai-ethics/index.html"
   }
 ];

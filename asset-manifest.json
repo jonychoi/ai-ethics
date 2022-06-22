@@ -1,6 +1,6 @@
 {
-  "main.js": "/ai-ethics/static/js/main.0e4e216c.chunk.js",
-  "main.js.map": "/ai-ethics/static/js/main.0e4e216c.chunk.js.map",
+  "main.js": "/ai-ethics/static/js/main.16505da5.chunk.js",
+  "main.js.map": "/ai-ethics/static/js/main.16505da5.chunk.js.map",
   "static/js/1.30135027.chunk.js": "/ai-ethics/static/js/1.30135027.chunk.js",
   "static/js/1.30135027.chunk.js.map": "/ai-ethics/static/js/1.30135027.chunk.js.map",
   "runtime~main.js": "/ai-ethics/static/js/runtime~main.af1ee1d6.js",
@@ -12,6 +12,6 @@
   "static/media/0331-2.png": "/ai-ethics/static/media/0331-2.badd1be9.png",
   "static/media/0331-3.png": "/ai-ethics/static/media/0331-3.d4709c6a.png",
   "index.html": "/ai-ethics/index.html",
-  "precache-manifest.ee47b65f39a25b6e3f979620021251b5.js": "/ai-ethics/precache-manifest.ee47b65f39a25b6e3f979620021251b5.js",
+  "precache-manifest.5183e6c12d08317de9de1a8b500daad1.js": "/ai-ethics/precache-manifest.5183e6c12d08317de9de1a8b500daad1.js",
   "service-worker.js": "/ai-ethics/service-worker.js"
 }
